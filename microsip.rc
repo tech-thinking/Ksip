@@ -1,0 +1,280 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// русский resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\microsip.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MESSAGES DIALOGEX 0, 0, 317, 191
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB,"SysTabControl32",WS_TABSTOP,1,3,315,14
+    PUSHBUTTON      "Call",IDC_CALL_END,4,21,70,14
+    PUSHBUTTON      "Video call",IDC_VIDEO_CALL,78,21,70,14
+    PUSHBUTTON      "Transfer",IDC_TRANSFER,96,21,70,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Hold",IDC_HOLD,170,21,70,14,NOT WS_VISIBLE
+    PUSHBUTTON      "End",IDC_END,244,21,70,14,NOT WS_VISIBLE
+    CONTROL         "",IDC_LIST,"RichEdit20A",ES_MULTILINE | ES_READONLY | ES_NUMBER | WS_VSCROLL,1,38,315,123,WS_EX_STATICEDGE
+    CONTROL         "",IDC_MESSAGE,"RichEdit20A",ES_MULTILINE | ES_AUTOHSCROLL | WS_BORDER | WS_VSCROLL | WS_TABSTOP,1,163,315,27
+END
+
+IDD_CONTACTS DIALOGEX 0, 0, 135, 159
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_CONTACTS,"SysListView32",LVS_LIST | LVS_SINGLESEL | LVS_SORTASCENDING | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,0,0,135,159
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MESSAGES, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 316
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 190
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // русский resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// английский (США) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MICROSIP_DIALOG DIALOGEX 0, 0, 137, 190
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",ID_TAB,"SysTabControl32",TCS_BUTTONS | 0x8,1,3,135,176
+END
+
+IDD_DIALER DIALOGEX 0, 0, 135, 159
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC,0,0,8,8,WS_TABSTOP
+    PUSHBUTTON      "1",IDC_KEY_1,5,3,39,19
+    PUSHBUTTON      "2 abc",IDC_KEY_2,48,3,39,19
+    PUSHBUTTON      "3 def",IDC_KEY_3,91,3,39,19
+    PUSHBUTTON      "4 ghi",IDC_KEY_4,5,26,39,19
+    PUSHBUTTON      "5 jkl",IDC_KEY_5,48,26,39,19
+    PUSHBUTTON      "6 mno",IDC_KEY_6,91,26,39,19
+    PUSHBUTTON      "7 pqrs",IDC_KEY_7,5,49,39,19
+    PUSHBUTTON      "8 tuv",IDC_KEY_8,48,49,39,19
+    PUSHBUTTON      "9 wxyz",IDC_KEY_9,91,49,39,19
+    PUSHBUTTON      "*",IDC_KEY_STAR,5,72,39,19
+    PUSHBUTTON      "0",IDC_KEY_0,48,72,39,19
+    PUSHBUTTON      "#",IDC_KEY_GRATE,91,72,39,19
+    PUSHBUTTON      "<",IDC_DELETE,5,95,39,19
+    PUSHBUTTON      "+",IDC_KEY_PLUS,48,95,39,19
+    PUSHBUTTON      "C",IDC_CLEAR,91,95,39,19
+    COMBOBOX        IDC_NUMBER,0,121,135,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Call",IDC_CALL,0,141,135,14,WS_DISABLED
+END
+
+IDD_TRANSFER DIALOGEX 0, 0, 181, 50
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Call Transfer"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_NUMBER,51,7,123,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,29,29,70,14
+    PUSHBUTTON      "Cancel",IDCANCEL,104,29,70,14
+    RTEXT           "Number",IDC_STATIC,7,10,40,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MICROSIP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 136
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_DIALER, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 158
+    END
+
+    IDD_TRANSFER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_OFFLINE             ICON                    "res\\offline.ico"
+IDI_ONLINE              ICON                    "res\\online.ico"
+IDI_UNKNOWN             ICON                    "res\\unknown.ico"
+IDI_AWAY                ICON                    "res\\away.ico"
+IDI_CLOSE               ICON                    "res\\close.ico"
+IDI_CLOSE_2             ICON                    "res\\close2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE_RINGOUT        WAVE                    "res\\Ringout.wav"
+IDR_WAVE_RINGIN2        WAVE                    "res\\Ringin2.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_CONTACT MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Call",                        ID_CALL
+        MENUITEM "Message",                     ID_CHAT
+        MENUITEM SEPARATOR
+        MENUITEM "Add",                         ID_ADD
+        MENUITEM "Edit",                        ID_EDIT
+        MENUITEM "Delete",                      ID_DELETE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    ID_STATUSBAR            "Status"
+END
+
+#endif    // английский (США) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\microsip.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
